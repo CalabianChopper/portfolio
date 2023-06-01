@@ -450,6 +450,24 @@ h1{
   background-size: cover;
 }
 
+              /* container deli projects (4) e flip animations*/
+
+.container-4{
+  display: flex;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+.parte1{
+  width: 65%;
+  height: auto;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
               /* adattabilità */
 
 @media screen and (max-width: 768px) {
@@ -523,6 +541,11 @@ h1{
   }
 
   .blocco2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .parte1{
     width: 100%;
     height: auto;
   }
